@@ -102,6 +102,16 @@
         }
         @media (max-width:760px){ .shot-grid{ grid-template-columns:1fr; } }
 
+        .pdf-embed{
+            width:100%;
+            height:800px;
+            border:none;
+            border-radius:8px;
+            box-shadow:0 8px 25px rgba(0,0,0,0.08);
+            margin-top:20px;
+        }
+        @media (max-width:760px){ .pdf-embed{ height:500px; } }
+
         .rec-list{
             list-style:none;
             padding:0;
@@ -198,9 +208,10 @@
 <section class="case-section">
     <div class="container">
         <h2>Explore the Dashboard</h2>
-        <p>View the full interactive Power BI report — filter by location, drill into menu items, and explore the business environment analysis yourself.</p>
+        <p>Browse the full five-page dashboard below, or open it in a new tab for a larger view.</p>
+        <iframe class="pdf-embed" src="assets/quickbite-dashboard.pdf" title="QuickBite Ghost Kitchen Performance Dashboard"></iframe>
         <div class="cta-row">
-            <a href="[live_dashboard]" target="_blank" class="btn" style="flex:none;">Open Interactive Dashboard</a>
+            <a href="assets/quickbite-dashboard.pdf" target="_blank" class="btn" style="flex:none;">Open Full Dashboard</a>
             <a class="back-link" href="index.html#projects" style="margin-top:0;"><i class="fas fa-arrow-left"></i>Back to portfolio</a>
         </div>
     </div>
