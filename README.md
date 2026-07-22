@@ -1,61 +1,34 @@
-# [Your Name] - Data Analysis Portfolio
+# Immanuella Nnadi - Data Analysis Portfolio
 
-Welcome! This repository contains the complete template for a professional, one-page data analysis portfolio website, hosted for free on GitHub Pages.
+Welcome! This repository hosts my personal data analysis portfolio, built as a one-page site and hosted for free on GitHub Pages.
 
-## About This Portfolio Template
+🔗 **Live site:** https://immanuella-nnadi.github.io
 
-This portfolio is designed to demonstrate skills in:
-- Data visualization and storytelling
-- Data modeling and analysis
-- Creating interactive, professional dashboards
-- Transforming complex data into actionable insights
+## About This Portfolio
 
-## 🚀 Projects
+I'm a Business Administration graduate and data analyst with hands-on experience in:
+- SQL, Power BI, Excel, and DAX
+- Data cleaning, integration, and dashboard design
+- Turning messy, complex datasets into clear, actionable business insights
+- KPI reporting and stakeholder communication
 
-This template is set up to showcase your best work. You can easily customize the project cards in the `index.html` file.
+## 🚀 Featured Project
 
-### Project Title One
-*A brief description of your project, the tools used, and the key insights derived.*
+### QuickBite Ghost Kitchen Performance Analysis
+*SQL · Excel · Power BI · DAX*
 
-### Project Title Two
-*A brief description of your project, the tools used, and the key insights derived.*
+Analyzed 21,000+ food delivery orders across three ghost kitchen locations to evaluate operational performance and support expansion decisions. Cleaned and integrated data from multiple sources, then built a five-page executive Power BI dashboard covering revenue, business environment, menu profitability, kitchen economics, and competitor benchmarking — delivering data-driven recommendations for menu optimization and expansion.
 
-### Project Title Three
-*A brief description of your project, the tools used, and the key insights derived.*
-
+More case studies coming soon.
 
 ## 🛠️ Skills
 
-Update the `index.html` file to reflect your personal technical skillset. The template is organized into key categories:
+- **Data Visualization:** Power BI, Excel Dashboards, Dashboard Design
+- **Data Analysis:** SQL, Advanced Excel, SPSS, Data Cleaning & Integration
+- **Business & Reporting:** DAX, KPI Reporting, Stakeholder Communication, Market Research
 
-- **Data Visualization**: Power BI, Tableau, Matplotlib, etc.
-- **Data Analysis**: SQL, Python (Pandas), R, Excel, etc.
-- **Data Modeling**: Power Query, DAX, Star Schema Design, etc.
-- **Tools**: List any other relevant tools like Power BI Service, specific cloud platforms, etc.
+## 📫 Contact
 
-## 💡 How to Use This Template
-
-Creating your own portfolio from this template is a simple, four-step process.
-
-### 1. Create a New Repository from this Template
-Click the green **"Use this template"** button at the top of this repository page, then select **"Create a new repository"**.
-
-### 2. Name Your Repository for GitHub Pages
-This is the most important step. To turn your portfolio into a live website, you **must** name your new repository in the following format:
-`your-username.github.io`
-*(Replace `your-username` with your actual GitHub username.)*
-
-### 3. Customize Your Portfolio
-Open the `index.html` file and begin personalizing it. The file contains helpful `<!--💡UPDATE: ... -->` comments to guide you on where to change:
-- Your name and title
-- Social media links
-- The "About Me" section
-- Your project titles, descriptions, and links
-- Your list of skills
-
-### 4. Add Your Files
-- Upload your profile photo and project preview images to the `assets/images/` folder.
-- Upload your CV (e.g., in PDF format) to the `assets/` folder.
-- Create your favicon and add it to the root folder.
-
-Once you commit your changes, your new portfolio website will be live at `https://your-username.github.io` within a few minutes!
+- Email: immanuellannadi@gmail.com
+- LinkedIn: [linkedin.com/in/immanuella-nnadi-171221324](https://linkedin.com/in/immanuella-nnadi-171221324)
+- GitHub: [github.com/immanuella-nnadi](https://github.com/immanuella-nnadi)
