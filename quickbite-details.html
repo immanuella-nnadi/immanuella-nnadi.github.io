@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickBite Ghost Kitchen Performance Analysis | Immanuella Nnadi</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        .back-link{
+            display:inline-block;
+            margin: 30px 0 0;
+            font-family: var(--font-body);
+            font-weight:700;
+            color: var(--primary-color);
+        }
+        .back-link i{ margin-right:8px; }
+
+        .project-hero{
+            background: var(--primary-color);
+            color: var(--white-color);
+            padding: 60px 0 50px;
+            text-align:center;
+        }
+        .project-hero .tag-row{
+            display:flex;justify-content:center;gap:10px;margin-bottom:20px;flex-wrap:wrap;
+        }
+        .project-hero .tag{
+            font-size:0.85rem;
+            border:1px solid rgba(255,255,255,0.4);
+            padding:5px 14px;
+            border-radius:20px;
+            opacity:0.9;
+        }
+        .project-hero h1{
+            font-family:var(--font-heading);
+            font-size:2.6rem;
+            margin-bottom:10px;
+        }
+        .project-hero p{ opacity:0.85; max-width:640px; margin:0 auto; }
+
+        .case-section{ padding:60px 0; }
+        .case-section:nth-child(even){ background:var(--white-color); }
+        .case-section h2{
+            font-family:var(--font-heading);
+            color:var(--primary-color);
+            font-size:2rem;
+            margin-bottom:24px;
+        }
+        .case-section p{ color:var(--dark-text-color); margin-bottom:16px; max-width:800px; }
+
+        .stat-row{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+            gap:20px;
+            margin:30px 0;
+        }
+        .stat-box{
+            background:var(--card-bg-color);
+            border-radius:8px;
+            box-shadow:0 8px 25px rgba(0,0,0,0.05);
+            padding:24px 18px;
+            text-align:center;
+        }
+        .stat-box .n{
+            font-family:var(--font-heading);
+            font-size:1.8rem;
+            font-weight:700;
+            color:var(--primary-color);
+        }
+        .stat-box .l{
+            font-size:0.85rem;
+            color:var(--light-text-color);
+            text-transform:uppercase;
+            letter-spacing:0.03em;
+            margin-top:6px;
+        }
+
+        .shot-grid{
+            display:grid;
+            grid-template-columns:repeat(2,1fr);
+            gap:20px;
+            margin-top:20px;
+        }
+        .shot-grid figure{
+            margin:0;
+            background:var(--card-bg-color);
+            border-radius:8px;
+            overflow:hidden;
+            box-shadow:0 8px 25px rgba(0,0,0,0.05);
+        }
+        .shot-grid img{ display:block; width:100%; }
+        .shot-grid figcaption{
+            font-size:0.85rem;
+            color:var(--light-text-color);
+            padding:10px 16px;
+        }
+        @media (max-width:760px){ .shot-grid{ grid-template-columns:1fr; } }
+
+        .rec-list{
+            list-style:none;
+            padding:0;
+            display:flex;
+            flex-direction:column;
+            gap:16px;
+            max-width:800px;
+        }
+        .rec-list li{
+            background:var(--card-bg-color);
+            border-left:4px solid var(--accent-color);
+            border-radius:6px;
+            padding:18px 22px;
+            box-shadow:0 6px 20px rgba(0,0,0,0.05);
+        }
+        .rec-list strong{ color:var(--primary-color); }
+
+        .cta-row{
+            display:flex; gap:16px; flex-wrap:wrap; margin-top:20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="project-hero">
+    <div class="container">
+        <div class="tag-row">
+            <span class="tag">SQL</span>
+            <span class="tag">Excel</span>
+            <span class="tag">Power BI</span>
+            <span class="tag">DAX</span>
+        </div>
+        <h1>QuickBite Ghost Kitchen Performance Analysis</h1>
+        <p>Turning 21,000+ delivery orders into a five-page executive dashboard that guided real expansion and menu decisions.</p>
+    </div>
+</div>
+
+<div class="container">
+    <a class="back-link" href="index.html#projects"><i class="fas fa-arrow-left"></i>Back to portfolio</a>
+</div>
+
+<section class="case-section">
+    <div class="container">
+        <h2>The Brief</h2>
+        <p>QuickBite operates delivery-only "ghost kitchens" across three Lagos-area locations — Kilimani, Westlands, and Eastleigh. Leadership needed a clear, unified view of where the business was actually profitable, how delivery performance compared to local competitors, and which menu items were worth the shelf space versus which were quietly losing money.</p>
+
+        <div class="stat-row">
+            <div class="stat-box"><div class="n">$15.55M</div><div class="l">Total Revenue Analyzed</div></div>
+            <div class="stat-box"><div class="n">21.36K</div><div class="l">Total Orders</div></div>
+            <div class="stat-box"><div class="n">3</div><div class="l">Kitchen Locations</div></div>
+            <div class="stat-box"><div class="n">5</div><div class="l">Dashboard Pages</div></div>
+        </div>
+    </div>
+</section>
+
+<section class="case-section">
+    <div class="container">
+        <h2>What I Did</h2>
+        <p>I pulled together operational data from multiple sources — order logs, delivery timestamps, cost sheets, and competitor benchmarks — and cleaned and integrated it into a single analysis-ready model. From there, I built a five-page Power BI dashboard using DAX measures to calculate profitability, cost ratios, and comparative KPIs across locations, weather conditions, and menu items.</p>
+
+        <div class="shot-grid">
+            <figure>
+                <img src="assets/images/quickbite.png" alt="QuickBite executive summary dashboard" loading="lazy">
+                <figcaption>Executive Summary — revenue, orders, delivery time, and rating by location</figcaption>
+            </figure>
+        </div>
+    </div>
+</section>
+
+<section class="case-section">
+    <div class="container">
+        <h2>Key Findings</h2>
+        <ul class="rec-list">
+            <li><strong>Location strategy:</strong> Kilimani led on both revenue ($6.6M) and cost efficiency (16× revenue-to-cost ratio), making it the strongest candidate for further investment ahead of Westlands and Eastleigh.</li>
+            <li><strong>Weather impact:</strong> Rainy days cut order volume by roughly two-thirds (16K → 5K orders) while pushing average delivery time up from ~59 to ~77 minutes — a clear signal for staffing and delivery-partner planning.</li>
+            <li><strong>Menu economics:</strong> The highest-revenue items weren't always the most profitable. Mandazi carried a 73% profit margin despite modest revenue, while some higher-revenue items ran margins as low as 58–60% — reshaping which items deserved promotional focus.</li>
+            <li><strong>Competitive position:</strong> QuickBite's average delivery time in Kilimani (69 min) lagged the local competitor average (42 min), flagging a real service-gap risk in its best-performing location.</li>
+        </ul>
+    </div>
+</section>
+
+<section class="case-section">
+    <div class="container">
+        <h2>Recommendations</h2>
+        <ul class="rec-list">
+            <li><strong>Prioritize Kilimani for expansion investment</strong> — reallocate marketing and operational resources here first, given its superior revenue-to-cost ratio and profit margin relative to the other two locations.</li>
+            <li><strong>Build a rainy-day staffing plan</strong> — pre-schedule additional delivery riders on forecasted rainy days to protect delivery times without overstaffing on dry days.</li>
+            <li><strong>Rebalance menu promotion around margin, not just revenue</strong> — feature high-margin items like Mandazi and Samosa more prominently in the app and promotions, rather than defaulting to the top-revenue items alone.</li>
+            <li><strong>Address the Kilimani delivery-time gap</strong> — investigate route density and rider allocation in Kilimani specifically, since it is both the top-revenue location and the one most exposed to a competitive service disadvantage.</li>
+        </ul>
+    </div>
+</section>
+
+<section class="case-section">
+    <div class="container">
+        <h2>Explore the Dashboard</h2>
+        <p>View the full interactive Power BI report — filter by location, drill into menu items, and explore the business environment analysis yourself.</p>
+        <div class="cta-row">
+            <a href="[live_dashboard]" target="_blank" class="btn" style="flex:none;">Open Interactive Dashboard</a>
+            <a class="back-link" href="index.html#projects" style="margin-top:0;"><i class="fas fa-arrow-left"></i>Back to portfolio</a>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
